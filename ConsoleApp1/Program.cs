@@ -28,6 +28,9 @@ namespace ConsoleApp1
              // muutjua mille väärtus on esimene elemendi listist. kui elemente ei ole siis annab default väärtuse. 
             var firstOrDefault = PeopleList.People.FirstOrDefault();
 
+            List<int> ints = new List<int>();
+            Console.WriteLine(ints.FirstOrDefault());
+
             Console.WriteLine(firstOrDefault.Name);
             Console.WriteLine(firstOrDefault.Age);
         }
